@@ -35,6 +35,7 @@ const ExpenseItem = (props) => {
     }
 
     return (
+        <li>
         <Card className="expense-item">
             {/* <div>
                 {/* <div>Month</div>
@@ -54,6 +55,7 @@ const ExpenseItem = (props) => {
             {/* <button onClick={() => {console.log('Clicked')}}>Change Title</button> */}
             <button onClick={clickHandler}>Change Title</button>
         </Card>
+        </li>
     );
 }
 
